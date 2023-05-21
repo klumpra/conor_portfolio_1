@@ -25,7 +25,6 @@ body{
     text-transform: uppercase;
 }
 
-
 nav, .navbar-brand, .nav-item {
     font-size:x-large;
     font-family:'Roboto',sans-serif;
@@ -33,6 +32,9 @@ nav, .navbar-brand, .nav-item {
     margin-right:0.5em;
 }
 
+.navbar-brand {
+    color:black;
+}
 #nav {
     width: 100%;
     height: 110px;
