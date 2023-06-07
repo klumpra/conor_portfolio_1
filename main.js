@@ -22,8 +22,8 @@ app.use(express.json());
 app.use(homeController.logRequestPaths);
 
 app.get("/", homeController.index);
-app.get("/films", homeController.showFilms);
 app.get("/reels", homeController.showReels);
+app.get("/films", homeController.showFilms);
 app.get("/itwork",homeController.showItwork);
 
 app.use(errorController.noPageFound);
