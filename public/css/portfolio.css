@@ -13,7 +13,8 @@ body{
     padding-top: 10px;
     font-family: 'Roboto', sans-serif;
     color: #0d0c0b;
-    background-color: rgb(208, 208, 127);
+    /* background-color: rgb(208, 208, 127); */
+    background-color: rgb(246, 246, 242);
 }
 
 #title {

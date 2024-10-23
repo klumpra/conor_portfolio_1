@@ -15,4 +15,7 @@ exports.showItwork =(req,res)=>{
 exports.showReels =(req,res)=>{
     res.render("reels");
 };
+exports.showNautilus =(req,res)=>{
+    res.render("naut");
+};
 

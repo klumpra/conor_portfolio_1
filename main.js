@@ -24,6 +24,7 @@ app.use(homeController.logRequestPaths);
 app.get("/", homeController.index);
 app.get("/reels", homeController.showReels);
 app.get("/films", homeController.showFilms);
+app.get("/naut",homeController.showNautilus);
 app.get("/itwork",homeController.showItwork);
 
 app.use(errorController.noPageFound);
